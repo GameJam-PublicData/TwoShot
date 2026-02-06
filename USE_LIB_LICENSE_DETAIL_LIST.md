@@ -1,25 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Library List</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-<div style="padding: 20px; margi: 100px;">
+このUnityプロジェクトが利用しているライブラリ一覧(詳細)です。
 
 
-<h1>Library List</h1>
-Thanks for the useful library
-<hr>
+更新日時：2026/02/05_16:34:16
+
+
+-------
+## LiberationSans
+### メモ１：
+
+```
+
+```
 
 
 
-<hr>
-<h2>LiberationSans</h2>
+* 追加日：2026/01/20_13:20:40
+* ライセンス：SILOpenFontLicenseVersion1_1
+* 料金タイプ：Free
+* ライセンス表記が必要？：True
+* チームメンバーごとにライセンス購入が必要か？：False
+* チームメンバー全員が把握する必要があるライブラリか？：False
 
-<div style="padding: 20px; margin-bottom: 30px; border: 1px dotted #333333; border-radius: 5px;">
-<p style="white-space : pre-wrap;">
+
+* バージョン：None
+
+
+* WebURL1：
+* WebURL2：
+* 使用しているライブラリ
+
+
+* カスタム１：
+* カスタム2：
+
+### ライセンス表記内容：
+
+```
 
 Digitized data copyright (c) 2010 Google Corporation
 	with Reserved Font Arimo, Tinos and Cousine.
@@ -68,15 +84,45 @@ This license becomes null and void if any of the above conditions are not met.
 DISCLAIMER
 THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.
 
-</p>
+```
 
-</div>
+---------------------------------------
+---------------------------------------
+---------------------------------------
 
-<hr>
-<h2>Unitask</h2>
 
-<div style="padding: 20px; margin-bottom: 30px; border: 1px dotted #333333; border-radius: 5px;">
-<p style="white-space : pre-wrap;">
+-------
+## Unitask
+### メモ１：
+
+```
+
+```
+
+
+
+* 追加日：2026/01/20_10:38:54
+* ライセンス：MIT
+* 料金タイプ：Free
+* ライセンス表記が必要？：True
+* チームメンバーごとにライセンス購入が必要か？：False
+* チームメンバー全員が把握する必要があるライブラリか？：False
+
+
+* バージョン：None
+
+
+* WebURL1：https://github.com/Cysharp/UniTask
+* WebURL2：
+* 使用しているライブラリ
+
+
+* カスタム１：
+* カスタム2：
+
+### ライセンス表記内容：
+
+```
 
 The MIT License (MIT)
 
@@ -100,15 +146,45 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-</p>
+```
 
-</div>
+---------------------------------------
+---------------------------------------
+---------------------------------------
 
-<hr>
-<h2>VContainer</h2>
 
-<div style="padding: 20px; margin-bottom: 30px; border: 1px dotted #333333; border-radius: 5px;">
-<p style="white-space : pre-wrap;">
+-------
+## VContainer
+### メモ１：
+
+```
+
+```
+
+
+
+* 追加日：2026/01/20_10:40:17
+* ライセンス：MIT
+* 料金タイプ：Free
+* ライセンス表記が必要？：True
+* チームメンバーごとにライセンス購入が必要か？：False
+* チームメンバー全員が把握する必要があるライブラリか？：False
+
+
+* バージョン：None
+
+
+* WebURL1：https://github.com/hadashiA/VContainer
+* WebURL2：
+* 使用しているライブラリ
+
+
+* カスタム１：
+* カスタム2：
+
+### ライセンス表記内容：
+
+```
 
 Copyright (c) 2020 hadashiA
 
@@ -130,15 +206,45 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-</p>
+```
 
-</div>
+---------------------------------------
+---------------------------------------
+---------------------------------------
 
-<hr>
-<h2>LicenseMaster</h2>
 
-<div style="padding: 20px; margin-bottom: 30px; border: 1px dotted #333333; border-radius: 5px;">
-<p style="white-space : pre-wrap;">
+-------
+## LicenseMaster
+### メモ１：
+
+```
+
+```
+
+
+
+* 追加日：2023/04/14_01:32:26
+* ライセンス：MIT
+* 料金タイプ：Free
+* ライセンス表記が必要？：True
+* チームメンバーごとにライセンス購入が必要か？：False
+* チームメンバー全員が把握する必要があるライブラリか？：False
+
+
+* バージョン：1.8.0
+
+
+* WebURL1：https://github.com/syskentokyo/unitylicensemaster
+* WebURL2：
+* 使用しているライブラリ
+
+
+* カスタム１：
+* カスタム2：
+
+### ライセンス表記内容：
+
+```
 
 MIT License
 
@@ -163,11 +269,11 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
-</p>
+```
 
-</div>
+---------------------------------------
+---------------------------------------
+---------------------------------------
 
-<hr>
-</div>
-</body>
-</html>
+
+-------

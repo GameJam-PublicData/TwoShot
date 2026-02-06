@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b76f0aa177eb41caa56a14d710e0d751, type: 3}
   m_Name: TMPFontLicenseConfig
   m_EditorClassIdentifier: LicenseMaster::SyskenTLib.LicenseMaster.LicenseConfig
-  _libraryName: TMPFont
+  _libraryName: LiberationSans
   _memo1: 
   _libversion: None
   _webURL1: 
@@ -25,7 +25,7 @@ MonoBehaviour:
   _isNeedAboutThisLibForEachMember: 0
   _isMustShowLicense: 1
   showLicenseOrder: 500
-  _licenseShowTextFromTextFile: {fileID: 0}
+  _licenseShowTextFromTextFile: {fileID: 4900000, guid: 6e59c59b81ab47f9b6ec5781fa725d2c, type: 3}
   _licenseShowText: 
   _customText1: 
   _customText2: 
