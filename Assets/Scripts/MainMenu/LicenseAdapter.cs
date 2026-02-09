@@ -13,9 +13,9 @@ public class LicenseAdapter : MonoBehaviour
     [Header("更新するにはResetしてください")]
     [SerializeField] LicenseManager licenseManager;
     [SerializeField] TextMeshProUGUI licenseText;
-    [SerializeField] float moveSpeed = 10f;
-    [SerializeField] float upperMargin = 100f;
-    [SerializeField] float bottomMargin = 100f;
+    [SerializeField] float moveSpeed = 1500f;
+    [SerializeField] float upperMargin = 400f;
+    [SerializeField] float bottomMargin = 0f;
 
     InputActions _inputActions;
     
@@ -67,8 +67,8 @@ public class LicenseAdapter : MonoBehaviour
         _upperLimitY = transform.InverseTransformPoint(new Vector3(0, topWorldY, 0)).y * -1;
         _bottomLimitY = transform.InverseTransformPoint(new Vector3(0, bottomWorldY, 0)).y * -1;
         
-        _upperLimitY += upperMargin;
-        _bottomLimitY -= bottomMargin;
+        _upperLimitY -= upperMargin;
+        _bottomLimitY += bottomMargin;
         
         Debug.Log($"License Text Move Bounds Set: upperY={_upperLimitY}, bottomY={_bottomLimitY}");
     }
@@ -92,7 +92,7 @@ public class LicenseAdapter : MonoBehaviour
     void OnDisable()
     {
         _inputActions.UI.Navigate.performed -= RequestMoveText;
-        licenseText.transform.localPosition = Vector3.zero;
+        licenseText.transform.localPosition = new Vector3(0,_upperLimitY,0);
     }
     
     

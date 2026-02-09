@@ -600,32 +600,6 @@ dotnet_style_qualification_for_field = false:suggestion
 dotnet_style_qualification_for_method = false:suggestion
 dotnet_style_qualification_for_property = false:suggestion
 dotnet_style_require_accessibility_modifiers = omit_if_default:suggestion
-file_header_template = fsharp_align_function_signature_to_indentation = false
-fsharp_alternative_long_member_definitions = false
-fsharp_indent_on_try_with = false
-fsharp_keep_if_then_in_same_line = false
-fsharp_max_array_or_list_width = 80
-fsharp_max_elmish_width = 40
-fsharp_max_function_binding_width = 40
-fsharp_max_if_then_else_short_width = 60
-fsharp_max_infix_operator_expression = 80
-fsharp_max_record_width = 40
-fsharp_max_value_binding_width = 80
-fsharp_multiline_block_brackets_on_same_column = false
-fsharp_multi_line_lambda_closing_newline = false
-fsharp_newline_between_type_definition_and_members = true
-fsharp_semicolon_at_end_of_line = false
-fsharp_single_argument_web_mode = false
-fsharp_space_after_comma = true
-fsharp_space_after_semicolon = true
-fsharp_space_around_delimiter = true
-fsharp_space_before_class_constructor = false
-fsharp_space_before_colon = false
-fsharp_space_before_lowercase_invocation = true
-fsharp_space_before_member = false
-fsharp_space_before_parameter = true
-fsharp_space_before_semicolon = false
-fsharp_space_before_uppercase_invocation = false
 
 # ReSharper properties
 resharper_accessor_owner_body = expression_body
