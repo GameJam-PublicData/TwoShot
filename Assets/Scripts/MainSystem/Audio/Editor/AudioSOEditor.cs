@@ -30,6 +30,7 @@ public class AudioSOEditor : UnityEditor.Editor
         {
             string path = AssetDatabase.GUIDToAssetPath(guid);
             SoundData soundData = AssetDatabase.LoadAssetAtPath<SoundData>(path);
+            //test
             switch (soundData.Category)
             {
                 case AudioCategory.SE:
