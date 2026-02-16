@@ -18,7 +18,7 @@ public class AudioSOEditor : UnityEditor.Editor
             EditorUtility.SetDirty(audioSO);
         }
     }
-
+//
     public static void RefreshClips(AudioSO audioSO)
     {
         var seClips = new List<SoundData>();
@@ -30,7 +30,7 @@ public class AudioSOEditor : UnityEditor.Editor
         {
             string path = AssetDatabase.GUIDToAssetPath(guid);
             SoundData soundData = AssetDatabase.LoadAssetAtPath<SoundData>(path);
-            //test
+            
             switch (soundData.Category)
             {
                 case AudioCategory.SE:
