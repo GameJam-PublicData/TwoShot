@@ -8,11 +8,13 @@ using UnityEngine.Audio;
 
 namespace MainSystem.Audio
 {
+/// <summary> オーディオの大まかなカテゴリ </summary>
 public enum AudioCategory
 {
     Master,
     BGM,
     SE,
+    /// <summary> SEより長いサウンド </summary>
     Jingle
 }
 

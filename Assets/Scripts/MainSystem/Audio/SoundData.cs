@@ -10,7 +10,7 @@ public class SoundData : ScriptableObject
     [SerializeField] AudioClip clip;
     [SerializeField,Range(0f, 1f)] float volume = 1f;
     [SerializeField] bool loop = false;
-
+    
     public AudioCategory Category => category;
     public string SoundName => soundName;
     public AudioClip Clip => clip;
